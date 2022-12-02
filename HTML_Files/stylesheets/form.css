@@ -1,0 +1,55 @@
+.container{
+    margin: 4rem;
+    width: 50%;
+    /* border: 1px solid mediumslateblue; */
+}
+._pdetails{
+    display: flex;
+    /* justify-content: space-around; */
+    column-gap: 20%; 
+   
+}
+.highlight{
+    padding: 4px;
+    border: 2px solid lawngreen;
+    border-radius: 2px;
+}
+
+
+.sdetails{
+    display: flex;
+}
+
+.left,.right{
+    
+    padding: 1rem;
+   
+}
+.left{
+    padding-left: 0;
+}
+
+._paswd{
+    display: flex;
+    /* justify-content: space-around; */   
+    column-gap: 20%; 
+
+}
+
+
+.left>h4,.right>h4,h2{
+    margin-top: 0;
+}
+._sdetails>h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+input,select,textarea{
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+._pdetails>.left,._pdetails>.right{
+    padding-top: 0;
+}

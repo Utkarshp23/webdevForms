@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tabel_cell {
+            height: 50px;
+            width: 100px;
+        }
+
+        .tabel_cell_body {
+            height: 30px;
+            width: 100px;
+            text-align: right;
+            padding-right: 10px;
+        }
+
+        .office {
+            background-color: lightsalmon;
+            text-align: center;
+        }
+
+        .dept_ec_meeting {
+            background-color: lightslategray;
+            text-align: center;
+        }
+
+        .mat_108 {
+            background-color: lightgreen;
+            text-align: center;
+        }
+
+        .cse_105 {
+            background-color: lightpink;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 1. Numbered List -->
+    <h3>Simple Numbered List</h3>
+    <ol>
+        <li> Core Java</li>
+        <li>Data structures</li>
+        <li>Database
+            <ol>
+                <li>MongoDB</li>
+                <li>Mysql</li>
+            </ol>
+        </li>
+        <li>Operating Systems</li>
+    </ol>
+
+    <!-- Descriptive List -->
+    <h3>Discriptive List</h3>
+    <dl>
+        <dt><mark>HTML</mark></dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est fugiat pariatur quis a asperiores explicabo
+            impedit, maiores voluptatem nihil, perferendis cum repellat! Ipsam, a doloremque libero molestiae nisi
+            ipsum, provident quasi excepturi asperiores accusamus voluptatem veritatis necessitatibus voluptatibus
+            officia optio non! Voluptatum, placeat corrupti. Ea accusamus dolorum, tenetur asperiores earum, voluptate
+            doloremque odit ratione expedita minus sit illo. Aliquam dolore distinctio quibusdam ad commodi? Aliquid
+            consequuntur, eos quia libero aperiam labore at fugiat inventore ipsum optio ducimus corporis. Illum nemo
+            reprehenderit voluptatum facilis soluta quod libero provident veritatis? Laboriosam incidunt deserunt aut
+            fuga dolore fugit ea earum sunt, ab itaque?</dd>
+        <dt><mark>CSS</mark></dt>
+        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eligendi debitis quam repudiandae aut saepe
+            quia dignissimos. Deserunt eum officiis tenetur expedita possimus ex quidem, quibusdam quasi, neque et
+            exercitationem necessitatibus modi labore quis laborum similique numquam voluptates esse! Quod porro
+            consequatur odit explicabo asperiores iure quidem veritatis assumenda debitis, incidunt iusto aspernatur
+            nobis excepturi quasi tempora blanditiis libero! Voluptatibus doloribus consequuntur necessitatibus illum
+            sit nam. Recusandae omnis culpa consequuntur eaque, placeat fugit inventore asperiores deleniti odit debitis
+            magnam itaque enim, nulla eum excepturi commodi architecto unde cumque perspiciatis? Consectetur blanditiis
+            doloremque dolorem minus fugit adipisci excepturi atque modi corporis.</dd>
+        <dt><mark>JavaScript</mark></dt>
+        <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque exercitationem voluptatibus deleniti rem
+            eveniet, minus atque facere inventore in iste id architecto, ad dicta dolores temporibus? Illum quae, quam
+            rerum exercitationem modi pariatur eligendi amet quas? Enim, ex saepe laborum aliquid optio minima
+            perferendis explicabo, cumque et doloribus aut ea harum commodi odio ducimus. Rem tempore dolore veniam
+            consequatur ex sapiente veritatis natus et, possimus eius, quaerat sint nam vitae quos perferendis quidem,
+            nostrum velit eos itaque aliquid! Magnam quisquam id voluptas architecto similique qui explicabo, officiis
+            optio nobis enim dolorum sit suscipit nisi dolor natus reprehenderit ea consectetur minus!</dd>
+        <dt><mark>AJAx</mark></dt>
+        <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime quisquam cupiditate fuga! Magni illum
+            repudiandae doloribus autem quae voluptatibus commodi soluta eum consequatur, explicabo repellendus dolorum
+            voluptatem distinctio, laudantium accusantium saepe ab? Nisi corporis fuga temporibus saepe dignissimos
+            cumque minima, illum magnam quidem accusamus, perspiciatis ipsum. Voluptatem fugit aliquid blanditiis,
+            repellendus, facilis, sequi assumenda porro tempore earum possimus dicta enim. Molestias odio id cumque sed
+            doloremque ipsa expedita ducimus nostrum sunt deserunt voluptatem necessitatibus et consequatur eum
+            asperiores error corrupti rerum soluta, similique natus provident aliquam veniam itaque. Eius officiis dolor
+            quo corporis quas eum possimus recusandae omnis eaque tenetur?</dd>
+    </dl>
+
+    <table>
+        <tr>
+            <td>red</td>
+            <td style="background-color:red" height="100" width="100"></td>
+        </tr>
+        <tr>
+            <td>blue</td>
+            <td style="background-color:blue" height="100" width="100"></td>
+        </tr>
+        <tr>
+            <td>green</td>
+            <td style="background-color:green" height="100" width="100"></td>
+        </tr>
+        <tr>
+            <td>orange</td>
+            <td style="background-color:orange" height="100" width="100"></td>
+        </tr>
+    </table>
+
+
+    <table border="1" style="border-collapse: collapse;">
+        <caption>Timetable</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th class="tabel_cell">Monday</th>
+                <th class="tabel_cell">Tuesday</th>
+                <th class="tabel_cell">Wednsday</th>
+                <th class="tabel_cell">Thursday</th>
+                <th class="tabel_cell">Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tabel_cell_body">1:00</td>
+                <td rowspan="2" class="office">Office</td>
+                <td></td>
+                <td rowspan="2" class="office"> Office</td>
+                <td rowspan="8" class="office">Office</td>
+                <td rowspan="2" class="office">Office</td>
+            </tr>
+            <tr>
+                <td class="tabel_cell_body">1:30</td>
+                <td rowspan="2" class="dept_ec_meeting">dept meeting</td>
+            </tr>
+            <tr>
+                <td class="tabel_cell_body">2:00</td>
+                <td rowspan="3" class="mat_108">MAT_108</td>
+                <td rowspan="3" class="mat_108">MAT_108</td>
+                <td rowspan="3" class="mat_108">MAT_108</td>
+            </tr>
+            <tr>
+                <td class="tabel_cell_body">2:30</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="tabel_cell_body">3:00</td>
+                <td rowspan="3" class="dept_ec_meeting">EC meeting</td>
+            </tr>
+            <tr>
+                <td class="tabel_cell_body">3:30</td>
+                <td rowspan="3" class="cse_105">cse_105</td>
+                <td rowspan="3" class="cse_105">cse_105</td>
+                <td rowspan="3" class="cse_105">cse_105</td>
+            </tr>
+            <tr>
+                <td class="tabel_cell_body">4:00</td>
+            </tr>
+            <tr>
+                <td class="tabel_cell_body">4:30</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

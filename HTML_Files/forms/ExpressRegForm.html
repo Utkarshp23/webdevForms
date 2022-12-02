@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheets/form.css">
+    <link rel="stylesheet" href="../stylesheets/centre.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Express Registration</h2>
+        <p>Please note that (*) is all mandatory</p>
+        <form class="_form" action="" method="post">
+            <div class="_pdetails">
+                <div class="left">
+                    <h4 style="background-color:lightgray">Personal Details</h4>
+                    <label for="ttl">Title</label> <br>
+                    <input type="text" name="ttl" id="ttl">
+                    <br>
+                    <label for="fname">First name</label> <br>
+                    <input type="text" name="fname" id="fname">
+                    <br>
+                    <label for="lname">Last name</label> <br>
+                    <input type="text" name="lname" id="lname">
+                    <br>
+                    <label for="email">Email</label> <br>
+                    <input type="email" name="email" id="email">
+                    <br>
+                    <label for="tnum">Telephone</label><br>
+                    <input type="text" name="tnum" id="tnum">
+                    <br>
+                    <label for="cnum">Cellphone</label><br>
+                    <input type="text" name="cnum" id="cnum">
+                </div>
+                <div class="right">
+                    <h4 style="background-color:lightgray">Address</h4>
+                    <label for="addr">Adrress</label><br>
+                    <input type="text" name="addr" id="addr">
+                    <br>
+                    <label for="twn">Town</label><br>
+                    <input type="text" name="twn" id="twn">
+                    <br>
+                    <label for="state">Country State</label><br>
+                    <input type="text" name="state" id="state">
+                    <br>
+                    <label for="cnt">Country</label><br>
+                    <select name="country" id="cnt">
+                        <option value="10">India</option>
+                        <option value="20">Australia</option>
+                        <option value="30">USA</option>
+                        <option value="40">UK</option>
+                        <option value="50">Russia</option>
+                        <option value="60">China</option>
+                    </select>
+
+                    <br>
+                    <label for="pcode">Postcode</label><br>
+                    <input type="text" name="pcode" id="pcode">
+                </div>
+
+            </div>
+            <label for="comment">Comment</label><br>
+            <textarea name="comment" id="comment" cols="40" rows="2"></textarea>
+            <div class="_pdetails ">
+                <div class="left">
+                    <label for="feedback">Feedback</label><br>
+                    <input type="text">
+                </div>
+                <div class="right">
+                    <label for="feedback">Here us from?</label><br>
+                    <input type="checkbox">freind
+                    <input type="checkbox">Compony 
+                    <br><input type="checkbox">Search Engine
+
+                </div>
+
+
+            </div>
+            <div class="_sdetails">
+                <h4 style="background-color:lightgray; width:fit-content;">Security Details</h4>
+                <div class="_paswd">
+                    <div class="left">
+                        <label for="npwd">New password</label><br>
+                        <input type="password">
+                    </div>
+                    <div class="right">
+                        <label for="cpwd">Confirm password</label><br>
+                        <input type="password">
+                    </div>
+                </div>
+                
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

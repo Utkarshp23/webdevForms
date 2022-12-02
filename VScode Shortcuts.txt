@@ -1,0 +1,5 @@
+shift+! --->produce html boiler plate
+lorem256 ----> Generate random text-
+alt+z   --->Wrap text
+shift+alt+downArrow---> duplicate lines
+shift+alt+f-----> auto format

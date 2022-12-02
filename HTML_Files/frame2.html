@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+
+            font-family: 'Lexend Deca', sans-serif;
+            display: flex;
+            flex-direction: column;
+            /* align-items: flex-c; */
+            /* justify-content: flex-start; */
+           
+           
+            height: 100vh;
+            overflow: hidden;
+            margin: 0;
+
+        }
+
+        .core {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .frame {
+            /* height: 560px;
+            width: 32.9%; */
+            border: 1px solid red;
+        }
+
+        .header_frame{
+            height: 10%;
+        }
+        .side_frame {
+            width: 25%;
+            height: 90vh;
+            
+        }
+
+        .main_frame {
+            width: 75%;
+            height: 90vh;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <iframe src="page1.html" class="frame header_frame"></iframe>
+    <div class="core">
+        <iframe src="page2.html" name="f1" class="frame side_frame"></iframe>
+        <iframe src="" name="f2" class="frame main_frame"></iframe>
+    </div>
+
+
+</body>
+
+</html>
